@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Content Scripts Dispatch",
+    "description": "Dispatch custom script for specific sites",
+    "version": "0.0.1",
+    "content_scripts": [
+        {
+            "js": [
+                "content.js"
+            ],
+            "matches": [
+                "*://*/*"
+            ]
+        }
+    ]
+}
